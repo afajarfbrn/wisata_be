@@ -13,7 +13,7 @@ class CategoryResource extends JsonResource
     
     /**
      * _construct
-     * 
+     *
      * @param mixed $status
      * @param mixed $message
      * @param mixed $resource

@@ -12,7 +12,7 @@ class LoginController extends Controller
 {
     /**
      * Handle the incoming request.
-     * 
+     *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
@@ -47,7 +47,7 @@ class LoginController extends Controller
             'success' => true,
             'message' => 'Login Successfully!',
             'user'    => $user,
-            'token'   => $user->createToken('authToken')->accesToken
+            'token'   => $user->createToken('authToken')->accessToken
         ], 200);
         
     }
