@@ -53,7 +53,7 @@ class CategoryController extends Controller
         //create category
         $category  = Category::create([
             'image' => $image->hashName(),
-            'image' => $request->name,
+            'name' => $request->name,
             'slug'  => Str::slug($request->name, '-'),
         ]);
 
